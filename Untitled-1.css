@@ -1,7 +1,7 @@
 body{
     width: 1440px;
     height: 800px;
-    background: url("./均.gif") repeat;
+    background: url("./均\ .gif") repeat;
   
 }
 #topline{ 
@@ -27,7 +27,7 @@ body{
     }
     #smile{
         font-family: "Rockwell";
-    color:fuchsia;
+    color:blueviolet;
     font-size: 18px;
         border: 0px;
         
