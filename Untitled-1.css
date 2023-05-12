@@ -1,0 +1,332 @@
+body{
+    width: 1440px;
+    height: 800px;
+    background: url("./均.gif") repeat;
+  
+}
+#topline{ 
+    font-family: "Rockwell";
+    color:darkgray ;
+    font-size: 24px;
+        border: 0px;
+        background-color:rgb(237,250,0);
+        position: absolute;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+       
+        top: -2px;
+       width:100%;
+       height:35px;
+        
+        z-index: 4;
+        margin: 0;
+        white-space:nowrap;
+        overflow: hidden;
+        letter-spacing:8px;
+    }
+    #smile{
+        font-family: "Rockwell";
+    color:fuchsia;
+    font-size: 18px;
+        border: 0px;
+        
+        position: absolute;
+        padding-top: 5px;
+        padding-bottom: 2px;
+        background-color:greenyellow;
+        
+       
+        top: 39px;
+       width:100%;
+       height:30px;
+        
+        z-index: 4;
+        margin: 0;
+        white-space:nowrap;
+        overflow: hidden;
+        letter-spacing:3px;
+
+    }
+    #bottom{
+     
+            border:0;
+            background-color:darkgreen;
+            position: absolute;
+           
+            top: 895px;
+            width: 100%;
+            height: 25px;
+            z-index: 28;
+            white-space:nowrap;
+            overflow: hidden;
+            padding-top: 5px;
+        padding-bottom: 5px;
+
+            font-size: 16px;
+            font-family: "Rockwell";
+            color: rgb(101, 49, 41);
+            letter-spacing:8px;
+          
+          
+      
+          
+    }
+    
+  
+#tag1{
+    width:157.5mm;
+    height:222.75mm;
+    position:absolute;
+    left: 550px;
+    top: 45px;
+    border-radius: 10px;
+    z-index: 4;
+}
+#bigfont{
+    
+        font-size: 50px;
+        font-family: "Rockwell";
+        color:greenyellow;
+        line-height: 1.2;
+        -moz-transform: matrix( 1.0704189882225,0,0,1.0704189882225,0,0);
+        -webkit-transform: matrix( 1.0704189882225,0,0,1.0704189882225,0,0);
+        -ms-transform: matrix( 1.0704189882225,0,0,1.0704189882225,0,0);
+        position: absolute;
+        left: 390px;
+        top: 25px;
+        width: 350px;
+        height: 350px;
+        z-index: 23;
+        letter-spacing:3px;
+        background-color: fuchsia;
+     
+      
+}
+#bigfont:hover{
+    background-color: chartreuse;
+}
+
+
+
+#vid, .print canvas{
+    position: absolute;
+   
+        border-radius: 10px;
+      
+        position: absolute;
+        left: 550px;
+        top: 45px;
+        
+        z-index: 2;
+      
+      
+}
+
+.print canvas {
+    display:none;
+}
+
+
+#but{
+        display:none;
+        font-size: 24px;
+        font-family: "Rockwell";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        -moz-transform: matrix( 0,1,-1,0,0,0);
+        -webkit-transform: matrix( 0,1,-1,0,0,0);
+        -ms-transform: matrix( 0,1,-1,0,0,0);
+        position: absolute;
+        left: 1142.697px;
+        top: 586.67px;
+        width: 50px;
+        height: 50px;
+        z-index: 33;
+        border: 0;
+            
+            background-color:dodgerblue ;
+            position: absolute;
+            left: 1300px;
+            top: 516px;
+            width: 120px;
+            height: 120px;
+            z-index: 2;
+            border-radius: 50%;
+          
+          
+      
+      
+   
+           
+            
+
+            
+      }
+    #but:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+    }
+    #bt{
+        font-size: 24px;
+        font-family: "Rockwell";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        -moz-transform: matrix( 0,1,-1,0,0,0);
+        -webkit-transform: matrix( 0,1,-1,0,0,0);
+        -ms-transform: matrix( 0,1,-1,0,0,0);
+        position: absolute;
+        left: 1142.697px;
+        top: 586.67px;
+        width: 50px;
+        height: 50px;
+        z-index: 33;
+        border: 0;
+        border-radius: 50;
+            
+            background-color:dodgerblue ;
+            position: absolute;
+            left: 1100px;
+            top: 685px;
+            width: 159px;
+            height: 95px;
+            
+        
+    }
+    #bt:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+    }
+    
+    #smallfont{
+        
+            font-size: 10px;
+            font-family: "Rockwell";
+            color:coral(101, 49, 41);
+            line-height: 1.2;
+         color:orangered;
+            position: absolute;
+            left: 750px;
+            top:865px;
+            width: 300px;
+            height: 50px;
+            z-index: 22;
+            
+           
+          }
+          
+    #smallfont:hover{
+        background-color:darkturquoise;
+    }
+    .eyes{
+        position: absolute;
+        top: 30%;
+        transform: translateY(-50%);
+        width: 100%;
+        text-align:left;
+        z-index: 0;
+        
+      }
+      
+      .eye{
+       
+        background: #fff;
+        display: inline-block;
+        margin: 50px;
+       
+       
+        overflow: hidden;
+       
+
+       
+            border-width: 1px;
+            border-color: rgb(101, 49, 41);
+            border-style: solid;
+            border-radius: 50%;
+            background-color: rgb(255, 255, 255);
+            position: relative;
+            left: 10px;
+            top: 500px;
+            width: 200px;
+            height: 80px;
+            z-index: 27;
+          
+          
+      }
+      
+      .ball{
+        width: 80px;
+        height: 80px;
+        background:lawngreen;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 50%;
+        border: 25px lawngreen;
+        z-index: 0;
+      }
+    #list{
+       
+            font-size: 19px;
+            font-family: "Rockwell";
+            color:chartreuse;
+            line-height: 1.2;
+            position: absolute;
+            left: 9px;
+            top: 390px;
+            width: 400px;
+            height: 110px;
+            z-index: 0;
+            
+           
+            padding: 10px;
+          
+          
+    }
+    #list:hover{
+        background-color: chartreuse;
+    }
+    #dect{
+        position:absolute;
+        
+     z-index: 20;
+     
+     left: 1208px;
+     top: 104px;
+    }
+    #dect:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+    #print {
+        width: 157.5mm;
+        height: 222.75mm;
+        
+        position: relative;
+        z-index: 0;
+    }
+    
+    video {
+        width: 157.5mm;
+        height: 222.75mm;
+        object-fit: cover;
+        z-index:2;
+    
+      transform: rotateY(180deg);
+    }
+
+    canvas {
+        position: absolute;
+        left:0px;
+        top:0px;
+    }
+    #chinese{
+        word-wrap: break-word;
+        font-size: 100px;
+        color:greenyellow ;
+        background-color: fuchsia;
+        top:30px;
+        
+    }
+   

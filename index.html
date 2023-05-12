@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Untitled-1.css" media="all">
+        <link rel="stylesheet" href="print-css.css" media="print" />
+
+    </head>
+    <body>
+
+        <div id="topline">
+            <marquee scrollamount="7">Σ( ° △ °|||) SOCIAL PORTRAIT (//●⁰౪⁰●)//</marquee>
+        </div>
+
+        <div id="smile">
+            <marquee scrollamount="10" >ATTENTION!!! PLEASE SMILE :P</marquee> 
+        </div>
+
+
+        <div id="bottom">
+            <marquee scrollamount="7">MINGU JIANG    INS: 0331maojh 
+                student number: 33750829  
+            </marquee>
+        </div>
+
+        <div id="bigfont">
+            <p>MAKE YOUR SOCIAL PORTRAIT HERE ↘</p>
+        </div>
+       
+        <div id="chinese">
+         <p>社会<br/>肖像</p>
+        </div>
+        
+        <div id="smallfont" class="cut">
+            CUT ALONG THE DOTTED LINE
+        </div>
+
+        <div id="list">
+            <li>Take a picture for your mask</li>
+            <li>Print it</li>
+            <li>Cut it along dotted line</li>
+            <li>Put on your mask</li>
+            <li>AI recognition</li>
+        </div>
+
+    
+
+
+
+
+        <div class="print" id="thing">
+            <video id="vid" autoplay muted></video>
+            <img src="./tag555.png" id="tag1"></img>
+        </div>
+
+        <div class="dectBox" id="dect">
+            <img  src="./detect box.png"></img>
+        </div> 
+
+        <div class="eyes">
+            <div class="eye">
+                <div class="ball"></div>
+            </div>
+            <div class="eye">
+                <div class="ball"></div>
+            </div>
+        </div>
+
+        <br />
+
+        <button id="but" autoplay>
+            SHOOT
+        </button>
+
+        <button id="bt">PRINT</button>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+        <script src="face-api.min.js"></script>
+        <script src="main.js"></script>
+
+
+
+        <!-- <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                let but = document.getElementById("but");
+                let video = document.getElementById("vid");
+                let mediaDevices = navigator.mediaDevices;
+                vid.muted = true;
+                but.addEventListener("click", () => {
+         
+                    // Accessing the user camera and video.
+                    mediaDevices
+                        .getUserMedia({
+                            video: true,
+                            audio: true,
+                        })
+                        .then((stream) => {
+         
+                            // Changing the source of video to current stream.
+                            video.srcObject = stream;
+                            video.addEventListener("loadedmetadata", () => {
+                                video.play();
+                            });
+                        })
+                        .catch(alert);
+                });
+            });
+         
+          var balls = document.getElementsByClassName("ball");
+          document.onmousemove = function(){
+            var x = event.clientX * 100 / window.innerWidth + "%";
+            var y = event.clientY * 100 / window.innerHeight + "%";
+
+            for(var i=0;i<2;i++){
+              balls[i].style.left = x;
+              balls[i].style.top = y;
+              balls[i].style.transform = "translate(-" + x +",-" + y +")";
+            }
+          }
+          function printpage(div){
+          
+          //var newstr = document.all.item(myDiv).innerHTML;
+          var newstr = document.getElementById(div).innerHTML;
+           alert(newstr);
+          var oldstr = document.body.innerHTML;
+          document.body.innerHTML = newstr;
+          window.print();
+          document.body.innerHTML = oldstr;
+          return false;
+          } 
+
+        </script> -->
+
+    </body>
+</html>

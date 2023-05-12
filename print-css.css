@@ -1,0 +1,30 @@
+* {
+    display:none;
+}
+
+#tag1, #print, video, .print, body, html, #vid, .cut  {
+    display:block !important;
+}
+
+#tag1, video, .print, #vid, .print canvas {
+    left:0;
+    top:0;
+    width:100% !important;
+    height:100% !important;
+}
+
+.cut {
+    left:50% !important;
+    transform:translateX(-50%);
+/*    bottom:20px !important;*/
+    position:fixed !important;
+/*    top:calc(297mm - 20px) !important;*/
+    width:auto !important;
+    bottom:0px !important;
+    top:auto !important;
+    height:auto !important;
+}
+
+#hide {
+    display:none !important;
+}
